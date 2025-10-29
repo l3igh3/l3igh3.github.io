@@ -1,4 +1,42 @@
-*{
+* {
     font-family: Arial, sans-serif;
-    text-align: center;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    color: var(--font-color);
+  }
+
+  :root {
+    --spacing-1: 8px;
+    --spacing-2: 12px;
+    --spacing-3: 16px;
+    --spacing-4: 24px;
+    --border-radius: 12px;
+  
+  }
+
+   nav {
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-3) 0;
+  }
+
+  .nav-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+  }
+  
+  .navigation {
+    margin: var(--spacing-1);
+  }
+  
