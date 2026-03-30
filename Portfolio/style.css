@@ -44,6 +44,20 @@ nav {
   margin: var(--spacing-1);
 }
 
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  padding: var(--spacing-2) var(--spacing-3);
+  border-radius: var(--border-radius);
+  transition: background 0.2s ease;
+}
+
+nav a:hover {
+  background: #e6e4f5;
+}
+
+
 .button {
   position: fixed;
   bottom: 20px;
